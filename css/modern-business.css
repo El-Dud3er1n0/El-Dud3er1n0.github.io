@@ -48,16 +48,17 @@ body {
 /* Navbar Content */
 
 .navbar {
-    height: 8%;
+    height: 5%;
     background-color: black;
 }
 
-.navbar-brand img {
-    width: 8em;
+.navbar-header img {
+    width: 10em;
     margin-left: 25px;
     border-style: double;
     border-width: 10px;
     border-color: white;
+    float: left;
 }
 
 .header * {
@@ -186,13 +187,12 @@ ul {
 /* Building Image */
 .builders-at-work img {
     float: right;
-    margin: 15px 15px 15px 15px;
-    width: 25em;
+    margin: 30px 15px 25px 25px;
+    width: 22em;
     border-top: 10px double rgb(0,44,43);
     border-bottom: 10px double rgb(0,44,43);
     border-left: 10px double rgb(0,44,43);
     border-right: 10px double rgb(0,44,43);
-
 }
 
 /* About Text Panel */
