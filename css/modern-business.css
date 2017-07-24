@@ -1,0 +1,386 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+
+body {
+    height: 100%
+}
+
+body {
+    background-image: url("../images/icon/bee2.jpg");
+    background-image: 1em;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.container {
+    background: rgb(188,188,188);
+}
+
+/*body {
+    background-image: -webkit-linear-gradient( top, rgb(255,255,255), rgb(233,233,233));
+    background-image: -moz-linear-gradient( top, rgb(255,255,255), rgb(233,233,233));
+    background-image: -ms-linear-gradient( top, rgb(255,255,255), rgb(233,233,233));
+    background-image: -o-linear-gradient( top, rgb(255,255,255), rgb(233,233,233));
+    background-image: linear-gradient( top, rgb(255,255,255), rgb(233,233,233)); 
+}
+    /*rgb(7,100,97);
+    rgb(17,100,77)
+    rgb(52,80,43)
+    background: rgb(25,71,25);
+    */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+div { 
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Navbar Content */
+
+.navbar {
+    height: 8%;
+    background-color: black;
+}
+
+.navbar-brand img {
+    width: 8em;
+    margin-left: 25px;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+}
+
+.header * {
+    margin: 0px, auto;
+}
+
+/* My code begins - Border styles*/
+
+/* Image background - Manchester Bee 
+
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.MancBee {
+    height: 100%
+    width: 100%
+    background: url("../images/logo/bee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+#BDBFamily ul {
+    background-image: -webkit-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -moz-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -ms-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -o-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    font-style: italic;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+/* Carousel Text */
+
+.carousel-caption h2 {
+    color: black;
+}
+
+/* Logo header */
+div * {
+    font-family: "Lucidia Sans Unicode", "Lucidia Grande", sans-serif;
+}
+
+/* Panel body background color */
+
+div.panel{
+    background-image: -webkit-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -moz-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -ms-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -o-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    border-style: solid;
+    border-width: 3px;
+    border-color: black; 
+}
+
+/* What We Do */
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+
+/* Accredited Awards Logos */
+.well {
+    border-style: double
+    border-width: medium;
+    border-color: black;
+}
+
+.row img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Award-logo {
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+}
+#FofMB {
+    width: 4em;
+    margin-left: 50px;
+}
+
+#CandG {
+    width: 8em;
+    margin-left: 50px;
+}
+
+#Gas-Safe {
+    width: 5em;
+    margin-left: 50px;
+}
+
+#Part-P {
+    width: 5em;
+    margin-left: 50px;
+}
+
+.row span img {
+    width: 2em;
+    height: 2em;
+}
+
+/* BDB A Modern Family */
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Building Image */
+.builders-at-work img {
+    float: right;
+    margin: 15px 15px 15px 15px;
+    width: 25em;
+    border-top: 10px double rgb(0,44,43);
+    border-bottom: 10px double rgb(0,44,43);
+    border-left: 10px double rgb(0,44,43);
+    border-right: 10px double rgb(0,44,43);
+
+}
+
+/* About Text Panel */
+#aboutPanel {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 75em;
+    border-top: 10px double rgb(0,44,43);
+    border-bottom: 10px double rgb(0,44,43);
+    border-left: 10px double rgb(0,44,43);
+    border-right: 10px double rgb(0,44,43);
+}
+
+/* Testimonial */
+.testimonial {
+    width: 10em;
+}
+
+.thumbnail {
+    background-image: -webkit-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -moz-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -ms-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -o-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.caption {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.caption p, h3 {
+    color: black;
+}
+
+/* Services Banner */
+.services-banner img {
+    margin: 0px auto;
+}
+
+h1, h2, h4 {
+    font-style: bold;
+    color: black;
+}
+
+/* my code finishes */
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 40%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Services banner */
+
+.panel-heading img {
+    height: 7em;
+    margin: 0px auto;
+}
+
+/* Services Descriptions */
+
+#myTab {
+    background-color: white;
+}
+
+#myTabContent {
+    background-image: -webkit-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -moz-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -ms-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: -o-linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    background-image: linear-gradient( top, rgb(174,232,251), rgb(255,255,255));
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0,44,43); 
+    padding-left: 25px; 
+    padding-right: 25px;
+}
+
+#service-one {
+    color: white;
+}
+
+#service-two {
+    color: white;
+}
+
+#service-three {
+    color: white;
+}
+
+#service-four {
+    color: white;
+}
+
+/* Our Customers */
+
+.our-customers {
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer div {
+    background-color: black;
+}
+
+#footer {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 25px;
+    color: white;
+}
+
+footer img {
+    width: 15em;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
